@@ -11,7 +11,7 @@ pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data k
 
 tugas
 
-![cods](Foto/foto.p.png)
+![foto](Foto/foto.p.png)
 
 Berikut Inputannya :
 nilai = [] ulang = True
@@ -23,7 +23,7 @@ if (input("Tambah data (y/t)?") == 't'):
     ulang = False
 print("\n Daftar Nilai Mahasiswa") print("==================================================================") print("|No. | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("==================================================================") i = 0 for item in nilai: i += 1 print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |" .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5])) print("==================================================================") Setelah Kita memasukan inputan dibawah ini ini lah hasil inputan Tersebut
 
-![cods](Foto/foto.p1.png)
+![foto](Foto/foto.p1.png)
 
 Dan Setelah Kita Menemukan Hasil Nya Mari Saya Jelaskan Perinciannya
 
@@ -44,7 +44,8 @@ Untuk keluar dari perulangan kita hanya perlu menginputkan 't' apabila diminta p
 
 print("\n Daftar Nilai Mahasiswa") print("==================================================================") print("|No. | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("==================================================================") i = 0 for item in nilai: i += 1 print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |" .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5])) print("==================================================================") Setelah ini selanjutnya kita akan membuat flowcart Sebagai Berikut
 
-![cods](foto/foto.p2.png)
+![foto](foto/foto.p2.png)
+
 
 Terimakasih
 
