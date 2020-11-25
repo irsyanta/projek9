@@ -235,8 +235,10 @@ while True:
 
 ![p3](foto/p3.png)
 
+Hasil Flowchart seperti berikut ini :
 
-![foto](foto/foto.p2.png)
+![p4](foto/p4.png)
+
 
 
 Terimakasih
