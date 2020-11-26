@@ -38,8 +38,7 @@ print("==================================================================")
 ```
 Seperti contoh berikut:
 
-![pon](Foto/pon.png)
-
+![ubey.png](foto/ubey.png.png)
 #### Penjelasan:
 1.) Pertama kita membuat variable list kosong.
 ```python
