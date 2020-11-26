@@ -5,7 +5,7 @@
 
 ## Program Data Mahasiswa
 pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data kedalam list.
-![Tugas4](Foto/foto.p.png)
+![Tugas4](Foto/foto.kl.png)
 
 ### Berikut Inputannya : 
 ```python
@@ -37,7 +37,7 @@ print("==================================================================")
 
 ```
 Seperti contoh berikut:
-![sebelum](Foto/foto.p1.png)
+![sebelum](Foto/foto.pon.png)
 
 #### Penjelasan:
 1.) Pertama kita membuat variable list kosong.
@@ -83,7 +83,7 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 ```
-![sebelum](Foto/foto.p3.PNG)
+![sebelum](Foto/foto.ui.PNG)
 Hasil Flowchart seperti berikut ini : <br>
 ![Flowchart](Foto/foto.p4.PNG)
 
