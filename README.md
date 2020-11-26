@@ -287,3 +287,5 @@ Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke d
 
 # TERIMA KASIH <br>
 Cukup sekian Mohon Maaf apabila dalam mengerjakan tugas banyak yang salah baik dalam codingan dan lain-lainnya. 
+
+![nabawi.png](foto/nabawi.png.png)
