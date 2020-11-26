@@ -37,7 +37,7 @@ print("==================================================================")
 
 ```
 Seperti contoh berikut:
-![foto](Foto/foto.pon.png)
+![pon](Foto/pon.png)
 
 #### Penjelasan:
 1.) Pertama kita membuat variable list kosong.
