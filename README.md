@@ -37,7 +37,7 @@ print("==================================================================")
 
 ```
 Seperti contoh berikut:
-![sebelum](Foto/p3.PNG)
+![sebelum](Foto/foto.p1.png)
 
 #### Penjelasan:
 1.) Pertama kita membuat variable list kosong.
@@ -83,9 +83,9 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 ```
-![sebelum](Foto/shobahus1.PNG)
+![sebelum](Foto/foto.p3.PNG)
 Hasil Flowchart seperti berikut ini : <br>
-![Flowchart](Foto/Flowchart.PNG)
+![Flowchart](Foto/foto.p4.PNG)
 
 
 # Praktikum 5
@@ -283,9 +283,7 @@ while True:
 Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke dalam list 'nilai' <br>
 
 * Terakhir kita akan mencetak hasil dari program yang telah dibuat
-![hasil](Foto/SHOBA3.PNG)
+![hasil](Foto/foto.p3.PNG)
 
 # TERIMA KASIH <br>
 Cukup sekian Mohon Maaf apabila dalam mengerjakan tugas banyak yang salah baik dalam codingan dan lain-lainnya. 
-
-![foto](Foto/shoba123.jpg)
