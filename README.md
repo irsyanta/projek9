@@ -91,7 +91,7 @@ Hasil Flowchart seperti berikut ini : <br>
 # Praktikum 5
 
 * pada praktikum 5 ini, saya akan membuat program sederhana untuk menginput data kedalam list. <br>
-![Tugas 5](Foto/tugas5.PNG)
+![pol.png](foto/pol.png.png)
 ![Tugas 5](Foto/tugas5(1).PNG)
 ```python
 P = print
