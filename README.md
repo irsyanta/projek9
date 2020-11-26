@@ -92,7 +92,7 @@ Hasil Flowchart seperti berikut ini : <br>
 
 * pada praktikum 5 ini, saya akan membuat program sederhana untuk menginput data kedalam list. <br>
 ![pol.png](foto/pol.png.png)
-![kon.png](Foto/kon.png.png)
+![kon.png](foto/kon.png.png)
 ```python
 P = print
 while True:
