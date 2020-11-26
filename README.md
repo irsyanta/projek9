@@ -83,9 +83,9 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 ```
-![foto](Foto/foto.ui.PNG)
+![ui](Foto/ui.PNG)
 Hasil Flowchart seperti berikut ini : <br>
-![foto](Foto/foto.p4.PNG)
+![p4](Foto/p4.PNG)
 
 
 # Praktikum 5
