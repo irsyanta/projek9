@@ -85,7 +85,7 @@ print("==================================================================")
 ```
 ![gans.png](foto/gans.png.png)
 Hasil Flowchart seperti berikut ini : <br>
-![p4](Foto/p4.PNG)
+![tol.png](Foto/tol.png.png)
 
 
 # Praktikum 5
