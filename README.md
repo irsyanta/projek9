@@ -1,55 +1,98 @@
-## pertemuan 9
-## nama:irsyantabagus
-## kelas:TI.20.A1
-## NIM:312010409
-## MATKUL:BAHASA PEMROGRAMAN
+# Pertemuan-9
+**NAMA: irsyantabagus** <br>
+**KELAS: TI.20.A1** <br>
+**NIM: 312010409** <br>
 
------------------------------------------------------------------------------
-
-Program Data Mahasiswa
+## Program Data Mahasiswa
 pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data kedalam list.
+![Tugas4](Foto/foto.p.png)
 
-tugas
-
-![foto](foto/foto.p.png)
-
-Berikut Inputannya :
+### Berikut Inputannya : 
 ```python
-nilai = [] ulang = True
+nilai = []
+ulang = True
 
-while ulang: nama = input("Masukkan Nama: ") nim = input("Masukkan NIM: ") tugas = int(input("Masukkan Nilai Tugas: ")) uts = int(input("Masukkan Nilai UTS: ")) uas = int(input("Masukkan Nilai UAS: ")) akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+while ulang:
+    nama = input("Masukkan Nama: ")
+    nim = input("Masukkan NIM: ")
+    tugas = int(input("Masukkan Nilai Tugas: "))
+    uts = int(input("Masukkan Nilai UTS: "))
+    uas = int(input("Masukkan Nilai UAS: "))
+    akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
 
-nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
-if (input("Tambah data (y/t)?") == 't'):
-    ulang = False
-print("\n Daftar Nilai Mahasiswa") print("==================================================================") print("|No. | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("==================================================================") i = 0 for item in nilai: i += 1 print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |" .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5])) print("==================================================================") Setelah Kita memasukan inputan dibawah ini ini lah hasil inputan Tersebut
+    nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
+    if (input("Tambah data (y/t)?") == 't'):
+        ulang = False
 
+print("\n                      Daftar Nilai Mahasiswa")
+print("==================================================================")
+print("|No. |     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
+print("==================================================================")
+i = 0
+for item in nilai:
+    i += 1
+    print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |"
+          .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
+print("==================================================================")
 
-![foto](foto/foto.p1.png)
+```
+Seperti contoh berikut:
+![sebelum](Foto/p3.PNG)
 
-Dan Setelah Kita Menemukan Hasil Nya Mari Saya Jelaskan Perinciannya
-
-
-1.) Langkah Pertama Yang Harus Lakukan Adalahkita membuat variable list kosong.
+#### Penjelasan:
+1.) Pertama kita membuat variable list kosong.
 ```python
-nilai = [] ulang = True Variable ulang = True digunakan untuk mengontrol perulangan.
-```python
-2.) Setelah itu kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi. Dan Ini inputannya while ulang: nama = input("Masukkan Nama: ") nim = input("Masukkan NIM: ") tugas = int(input("Masukkan Nilai Tugas: ")) uts = int(input("Masukkan Nilai UTS: ")) uas = int(input("Masukkan Nilai UTS: ")) akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+nilai = []
+ulang = True
+```
+Variable ```ulang = True``` digunakan untuk mengontrol perulangan.
 
-nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
-Dari statement yang kita masukan diatas, kita akan diminta untuk menginput nama, nim, nilai tugas, nilai uts, dan nilai uas, lalu system akan menjumlahkan nilai-nilai tersebut dan menghasilkan nilai akhir. Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke dalam list 'nilai' 3.) Setelah membuat perulangan, kita membuat statement untuk menghentikan atau keluar dari perulangan yang terjadi.
+2.) Lalu kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi.
 ```python
-if (input("Tambah data (y/t)?") == 't'):
-    ulang = False
-Untuk keluar dari perulangan kita hanya perlu menginputkan 't' apabila diminta pada saat program dijalankan. 't' akan membuat variable ulang = True menjadi ulang = False yang mana akan menghentikan perulangan yang terjadi.
+while ulang:
+    nama = input("Masukkan Nama: ")
+    nim = input("Masukkan NIM: ")
+    tugas = int(input("Masukkan Nilai Tugas: "))
+    uts = int(input("Masukkan Nilai UTS: "))
+    uas = int(input("Masukkan Nilai UTS: "))
+    akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+
+    nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
+```
+Dari statement diatas, kita akan diminta untuk menginput nama, nim, nilai tugas, nilai uts, dan nilai uas, lalu system akan menjumlahkan nilai-nilai tersebut dan menghasilkan nilai akhir.
+Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke dalam list 'nilai'
+
+3.) Setelah membuat perulangan, kita membuat statement untuk menghentikan atau keluar dari perulangan yang terjadi.
+```python
+    if (input("Tambah data (y/t)?") == 't'):
+        ulang = False
+```
+Untuk keluar dari perulangan kita hanya perlu menginputkan 't' apabila diminta pada saat program dijalankan.
+'t' akan membuat variable ```ulang = True``` menjadi ```ulang = False``` yang mana akan menghentikan perulangan yang terjadi.
 
 4.) Terakhir kita akan mencetak hasil dari program yang telah dibuat.
 ```python
-print("\n Daftar Nilai Mahasiswa") print("==================================================================") print("|No. | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("==================================================================") i = 0 for item in nilai: i += 1 print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |" .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5])) print("==================================================================")
+print("\n                      Daftar Nilai Mahasiswa")
+print("==================================================================")
+print("|No. |     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
+print("==================================================================")
+i = 0
+for item in nilai:
+    i += 1
+    print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |"
+          .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
+print("==================================================================")
+```
+![sebelum](Foto/shobahus1.PNG)
+Hasil Flowchart seperti berikut ini : <br>
+![Flowchart](Foto/Flowchart.PNG)
 
-# Tugas Pratikum 5
 
-Pada pratikum 5 ini saya akan menmbuat program sederhana untuk menginput data kedalam list.
+# Praktikum 5
+
+* pada praktikum 5 ini, saya akan membuat program sederhana untuk menginput data kedalam list. <br>
+![Tugas 5](Foto/tugas5.PNG)
+![Tugas 5](Foto/tugas5(1).PNG)
 ```python
 P = print
 while True:
@@ -235,14 +278,14 @@ while True:
         i.close()
     else:
         P("Silahkan pilih menu yang tersedia...")
+```
+* Dari statement diatas, kita akan diminta untuk menginput nama, nim, nilai tugas, nilai uts, dan nilai uas, lalu system akan menjumlahkan nilai-nilai tersebut dan menghasilkan nilai akhir. <br>
+Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke dalam list 'nilai' <br>
 
-![p3](foto/p3.png)
+* Terakhir kita akan mencetak hasil dari program yang telah dibuat
+![hasil](Foto/SHOBA3.PNG)
 
-Hasil Flowchart seperti berikut ini :
+# TERIMA KASIH <br>
+Cukup sekian Mohon Maaf apabila dalam mengerjakan tugas banyak yang salah baik dalam codingan dan lain-lainnya. 
 
-![p4](foto/p4.png)
-
-
-
-Terimakasih
-
+![foto](Foto/shoba123.jpg)
