@@ -5,7 +5,7 @@
 
 ## Program Data Mahasiswa
 pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data kedalam list.
-![foto](Foto/foto.kl.png)
+![kl](foto/kl.png)
 
 ### Berikut Inputannya : 
 ```python
